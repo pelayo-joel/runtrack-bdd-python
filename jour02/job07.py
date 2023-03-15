@@ -30,7 +30,7 @@ def Main():
                                             prenom varchar(255),\
                                             salaire decimal,\
                                             id_service int,\
-                                            PRIMARY_KEY (id)\
+                                            PRIMARY KEY (id)\
                                             );")
     
 
@@ -61,7 +61,7 @@ def Main():
     dbCursor.execute("CREATE TABLE services (\
                                             id int NOT NULL AUTO_INCREMENT,\
                                             nom varchar(255),\
-                                            PRIMARY_KEY (id)\
+                                            PRIMARY KEY (id)\
                                             );")
     
     services = ["Wins And Leaves", "RizzMove", "Gym Training", "UwU"]

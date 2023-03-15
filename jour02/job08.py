@@ -27,14 +27,14 @@ dbCursor.execute("CREATE TABLE animal (\
                                       id_cage int,\
                                       birthdate datetime,\
                                       origin_country varchar(255),\
-                                      PRIMARY_KEY (id)\
+                                      PRIMARY KEY (id)\
                                       );")
 
 dbCursor.execute("CREATE TABLE cage (\
                                     id int NOT NULL AUTO_INCREMENT,\
                                     n_animals int,\
                                     superficie int,\
-                                    PRIMARY_KEY (id)\
+                                    PRIMARY KEY (id)\
                                     );")
 
 
